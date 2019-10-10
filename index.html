@@ -23,9 +23,9 @@
 
   </head>
   <body>
-    <nav  class="navbar navbar-expand-lg navbar-light p-1" style="background-color:#Eb636b;">
+    <nav  class="navbar navbar-expand-lg navbar-light p-1" style="background-color:#DC3545;">
       <div class="container">
-          <a id="hb" class="navbar-brand" href="#">HB</a>
+          <a id="hb" class="navbar-brand text-light" href="#">HB</a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,16 +34,18 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Sobre mi<span class="sr-only">(current)</span></a>
+                <a class="nav-link " href="#" data-toggle="tooltip" data-placement="top" title="¿Quieres saber mas?">Sobre mi<span class="sr-only"
+
+                  > (current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experiencia</a>
+                <a class="nav-link" href="#experience">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Trabajos</a>
+                <a class="nav-link" href="#work">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contact">Contacto</a>
               </li>
             </ul>
           </div>
@@ -51,6 +53,11 @@
   </nav>
 
 <section class="hero">
+  <div class="portada text-bottom">
+      <h1 class="soy">Yo soy</h1>
+      <hr/>
+      <h2 id="hb" class="font-weight-bold">Hiliana Bustamante</h2>
+    </div>
 </section>
 
 <section class="pt-5">
@@ -71,60 +78,60 @@
 </section>
 
 <section>
-  <h1 class="bg-pink text-center pt-5">Mi experiencia</h1>
+  <h1 id="experience" class="bg-pink text-center pt-5">Mi experiencia</h1>
 </section>
 
-<section class="trabajos progress-bar progress-bar-striped bg-danger text-danger">
-
+<section  id="work" class="trabajos progress-bar progress-bar-striped bg-danger text-danger">
+  <h1 class="font-weight-bold text-light">Mis ultimos Trabajos</h1>
   <div class="container my-1 p-3">
       <div class="card-deck">
         <div class="card" style="width: 50rem;">
           <img src="assets/img/meetcoffee.png" class="card-img-top" alt="meetcoffe">
           <div class="card-body">
-            <h5 class="card-title">Meet&Coffe</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+            <h5 class="card-title font-weight-bold">Meet&Coffe</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
       </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/desayunos.jpg" class="card-img-top" alt="Desayunos">
+      <img src="assets/img/iguanapage.png" class="card-img-top" alt="Desayunos">
       <div class="card-body">
-        <h5 class="card-title">Desayunos</h5>
-        <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit </p>
+        <h5 class="card-title font-weight-bold">Iguana Page</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
 
     <div class="card" style="width: 18rem;">
-      <img src="img/bebidas.jpg" class="card-img-top" alt="Bebidas">
+      <img src="assets/img/suricata.png" class="card-img-top" alt="Bebidas">
       <div class="card-body">
-        <h5 class="card-title">Bebidas</h5>
-        <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit </p>
+        <h5 class="card-title font-weight-bold">suricata</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
   </div>
 
   <div class="card-deck my-5" >
         <div class="card" style="width: 18rem;">
-          <img src="img/verduras.jpg" class="card-img-top" alt="Verduras">
+          <img src="assets/img/cuppon.png" class="card-img-top" alt="Verduras">
           <div class="card-body">
-            <h5 class="card-title">Verduras</h5>
-            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit </p>
+            <h5 class="card-title font-weight-bold">Cuppon</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="img/dulces.jpg" class="card-img-top" alt="dulces">
+          <img src="assets/img/ricomida.png" class="card-img-top" alt="dulces">
           <div class="card-body">
-            <h5 class="card-title">Dulces</h5>
-            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit </p>
+            <h5 class="card-title font-weight-bold">Ricomida</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="img/empanadas.jpg" class="card-img-top" alt="Empanadas">
+          <img src="assets/img/dmark.png" class="card-img-top" alt="Empanadas">
           <div class="card-body">
-            <h5 class="card-title">Empanadas</h5>
-            <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit </p>
+            <h5 class="card-title font-weight-bold">DMark</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
 
           </div>
@@ -138,19 +145,31 @@
 
 
 
-<section class="Contacto text-center">
+<section id="contact"class="Contacto text-center p-5 m-5">
   <h1>CONTACTO</h1>
 
   <p>¿Quieres conocer mas de mi?</p>
-  <button type="button" class="btn btn-outline-danger text-center">Comenzar</button>
+  <button type="button" class="btn btn-outline-danger text-center"data-toggle="tooltip" data-placement="top" title="Presiona para enviar tu correo">Comenzar</button>
+
+<div class="typeform-widget" data-url="https://hiliana585418.typeform.com/to/yD1UH8" style="width: 100%; height: 500px;"> </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+ <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=yD1UH8&utm_source=typeform.com-14752610-Free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
+
 </section>
 
+<footer id="hb" class=" progress-bar progress-bar-striped bg-danger text-light">
+  <h1 class="text-center">Hiliana Bustamante</h1>
+  <div class="text-center ">
+
+
+      <a href="https://gihub.com"><i class="fab fa-github-square fa-2x text-light"></i></a>
+      <a href="https://twitter.com"> <i class="fab fa-twitter-square fa-2x text-light"></i></a>
+      <a href="https://linkedin.com"><i class="fab fa-linkedin fa-2x text-light"></i></a>
+        </div>
+    </footer>
 
 
 
-<section>
-  <h1>hola</h1>
-</section>
 
 
 
